@@ -15,4 +15,5 @@ describe('GatewayController', () => {
   it('should be defined', () => {
     expect(controller).toBeDefined();
   });
+
 });

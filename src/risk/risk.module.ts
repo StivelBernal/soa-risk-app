@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { RiskService } from './risk.service';
 
 @Module({
-  providers: [RiskService]
+  providers: [RiskService],
+  exports: [RiskService],
 })
 export class RiskModule {}
